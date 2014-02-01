@@ -1,0 +1,6 @@
+<resources>
+    <color name="short_nap">#FF3486eb</color>
+    <color name="medium_nap">#FF34ebe5</color>
+    <color name="long_nap">#FF34eb7d</color>
+    <color name="custom_nap">#FF394147</color>
+</resources>

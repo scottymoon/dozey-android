@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+    </style>
+
+    <style name="AppTheme.ShortNap">
+        <item name="android:background">@color/short_nap</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.MediumNap">
+        <item name="android:background">@color/medium_nap</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.LongNap">
+        <item name="android:background">@color/long_nap</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.CustomNap">
+        <item name="android:background">@color/custom_nap</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Buttons -->
+
+    <style name="AppTheme.Button" parent="@android:style/Widget.Button">
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Text Style -->
+
+    <style name="AppTheme.Text">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.Paragraph" parent="AppTheme.Text">
+        <item name="android:paddingTop">@dimen/inner_padding</item>
+        <item name="android:paddingBottom">@dimen/inner_padding</item>
+    </style>
+
+    <style name="AppTheme.HeadingLarge" parent="AppTheme.Text">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <style name="AppTheme.HeadingMedium" parent="AppTheme.Text">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>

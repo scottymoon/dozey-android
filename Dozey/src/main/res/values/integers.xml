@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cool_down">5</integer>
+    <integer name="short_nap">35</integer>
+    <integer name="medium_nap">65</integer>
+    <integer name="long_nap">95</integer>
+</resources>

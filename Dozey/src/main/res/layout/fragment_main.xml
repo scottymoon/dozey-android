@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:text="@string/choose_time"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:layout_height="@dimen/button_height" />
+
+    <Button
+        android:id="@+id/btn_short_nap"
+        android:text="@string/short_nap_duration"
+        android:layout_weight="@integer/short_nap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:gravity="end|bottom"
+        style="@style/AppTheme.ShortNap"/>
+
+    <Button
+        android:id="@+id/btn_medium_nap"
+        android:text="@string/medium_nap_duration"
+        android:layout_weight="@integer/medium_nap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:gravity="end|bottom"
+        style="@style/AppTheme.MediumNap"/>
+
+    <Button
+        android:id="@+id/btn_long_nap"
+        android:text="@string/long_nap_duration"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/long_nap"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:gravity="end|bottom"
+        style="@style/AppTheme.LongNap"/>
+
+    <Button
+        android:id="@+id/btn_custom_nap"
+        android:text="@string/custom_nap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:gravity="end|bottom"
+        style="@style/AppTheme.CustomNap"/>
+
+</LinearLayout>
