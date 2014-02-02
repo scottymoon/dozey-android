@@ -8,9 +8,10 @@
     <TextView
         android:text="@string/choose_time"
         android:layout_width="match_parent"
-        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_height="@dimen/button_height"
+        android:textColor="@android:color/black"
         android:gravity="center"
-        android:layout_height="@dimen/button_height" />
+        style="@style/AppTheme.HeadingLarge"/>
 
     <Button
         android:id="@+id/btn_short_nap"

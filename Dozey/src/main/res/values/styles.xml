@@ -44,11 +44,13 @@
     </style>
 
     <style name="AppTheme.HeadingLarge" parent="AppTheme.Text">
-        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
     <style name="AppTheme.HeadingMedium" parent="AppTheme.Text">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
 </resources>

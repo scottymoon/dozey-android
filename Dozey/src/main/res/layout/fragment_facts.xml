@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/short_nap_duration"
                     android:id="@+id/textView2"
-                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     style="@style/AppTheme.HeadingMedium"/>
 
@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/medium_nap_duration"
                     android:id="@+id/textView2"
-                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     style="@style/AppTheme.HeadingMedium" />
 
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/long_nap_duration"
                     android:id="@+id/textView2"
-                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     style="@style/AppTheme.HeadingMedium"/>
 
